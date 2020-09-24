@@ -1,0 +1,17 @@
+  
+ /* .jumbotron {
+        Margin: 20px;
+  }
+    */
+  .jumbo {
+      position: relative;
+      left: 500px
+  }
+  .startbutton{
+    position: relative;
+    left: 550px
+  }
+  .lead{
+    position: relative;
+    right: 140px
+  }

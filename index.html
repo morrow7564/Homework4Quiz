@@ -1,29 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Quiz</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div>
+    <div class="navbar-nav">
+      <a class="nav-link active" href="index.html">Quiz <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="scores.html">Highscores</a>
+    </div>
+  </div>
+</nav>
+
 <body>
+  <div class="jumbotron">
+    <h3>Timer: <span id="timer">30</span></h3>
+    <div class="jumbo" id="par">
+      <h1 class="display-4">JavaScript Quiz</h1>
+      <p class="lead" id=par>This is a timed JavaScript quiz. When you hit the start button the quiz will start.
+      </p>
+      <a class="btn btn-primary btn-lg" class="startbutton" id="startBtn" href="#" role="button">Start</a>
+    </div>
+    <div class="card hide" id="boxQuestions" style='display: none'>
+      <div class="card-header" id="question">
+        <h3>Question</h3>
+      </div>
+      <div class="card-body" id="answers">
+        <button id="answer1" onclick="correctAns('1')"></button>
+        <button id="answer2" onclick="correctAns('2')"></button>
+        <button id="answer3" onclick="correctAns('3')"></button>
+        <button id="answer4" onclick="correctAns('4')"></button>
+      </div>
+    </div>
+    <div id="nameholder" style="display: none;">
+      <h3>The Quiz IS Done! </h3>
+      <p id="timeLeft"></p>
+      <form action="scores.html">
+        <p id="textbox">Enter your name to get on the Highscores!</p>
+        <input type="text">
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="logic.js"></script>
 </body>
+
 </html>
