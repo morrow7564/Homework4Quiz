@@ -69,11 +69,11 @@ startBtn.addEventListener("click", startGame)
 
 function startGame() {
     console.log('start')
+    quest()
+    counter()
+    boxQuestions.style.display = "block"
     startBtn.style.display = "none";
     par.style.display = "none";
-    quest()
-    boxQuestions.style.display = "block"
-    counter()
 }
 
 // scorebox holder function to display
