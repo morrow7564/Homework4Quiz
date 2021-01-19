@@ -70,7 +70,7 @@ startBtn.addEventListener("click", startGame)
 function startGame() {
     console.log('start')
     quest()
-    counter()
+    // counter()
     boxQuestions.style.display = "block"
     startBtn.style.display = "none";
     par.style.display = "none";
@@ -96,20 +96,20 @@ function correctAns(rightAns) {
         scoreHolder();
 }
 
-// function for the counter
-function counter() {
-    var count= setInterval(function () {
-     timeSec--;
-     var seconds = timeSec.toString();
-     timer.textContent = seconds;
-     if (timeSec <= 0) {
-         clearInterval(count);
-     } else if (before === showing) {
-         clearInterval(count)
+// // function for the counter
+// function counter() {
+//     var count= setInterval(function () {
+//      timeSec--;
+//      var seconds = timeSec.toString();
+//      timer.textContent = seconds;
+//      if (timeSec <= 0) {
+//          clearInterval(count);
+//      } else if (before === showing) {
+//          clearInterval(count)
          
-     }
- },1000)
-}
+//      }
+//  },1000)
+// }
 
 // localStoage to add name to scoreholder
 

@@ -1,42 +1,47 @@
-# 04 Web APIs: Code Quiz
+# Code Quiz
 
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Description 
+
+You will be about to take a timed quiz with 10 questions and at the end you can see where you rank on the high scores page
+
 
 ## User Story
 
-```
-AS A coding bootcamp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
-```
 
-## Acceptance Criteria
+### App screenshot
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
+![AppPhoto](./Assets/04-web-apis-homework-demo.gif)   
 
-The following animation demonstrates the application functionality:
+## Table of contents
 
-![code quiz](./Assets/04-web-apis-homework-demo.gif)
+- [Description](#Description)
+- [Usage](#Usage)
+- [Licence](#Licence)
+- [Repository Link](#Repository)
+- [GitHub Info](#GitHub) 
 
-### Review
+## Usage
 
-You are required to submit the following for review:
+Go to [Budget App](https://morrow7564.github.io/codeQuiz/) 
 
-* The URL of the functional, deployed application.
+## Licence
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+## Repository
+
+- [Project Repo](https://github.com/morrow7564/codeQuiz)
+
+
+## GitHub
+
+- Christopher Morrow
+- [GitHub Profile](https://github.com/morrow7564)
+
+
+
